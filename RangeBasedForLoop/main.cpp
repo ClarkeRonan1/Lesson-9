@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <iomanip>
 using namespace std;
 int main()
 {
@@ -24,8 +25,32 @@ int main()
     if (temperatures.size() != 0)
     {
         averageTemp = total / temperatures.size();
+        //This is double division
     }
+    cout << fixed << setprecision(1);
+    //rounding to the 1st decimal place
     cout << "Average temperature is " << averageTemp << endl;
+    
+    //Initialiser list
+    for (auto val: {1, 2, 3, 4, 5})
+        cout << val << endl;
+        
+//    C style string
+//    for (auto c: "This is a test")
+//        if (c != ' ')
+//            this gets rid of all spaces
+//            cout << c;
+
+    for (auto c: "This is a test")
+    {
+        if (c == ' ')
+            //If there is a space
+            //replace it with a tab
+            cout << "\t";
+        else 
+            cout << c;
+    }
+            
     cout << endl;
     return 0;
 }
