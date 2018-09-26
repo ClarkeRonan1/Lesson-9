@@ -9,8 +9,12 @@
   <Project Name="ConditionalOperator" Path="ConditionalOperator/ConditionalOperator.project" Active="No"/>
   <Project Name="ForLoop" Path="ForLoop/ForLoop.project" Active="No"/>
   <Project Name="RangeBasedForLoop" Path="RangeBasedForLoop/RangeBasedForLoop.project" Active="No"/>
-  <Project Name="WhileLoops" Path="WhileLoops/WhileLoops.project" Active="Yes"/>
-  <Project Name="DoWhileLoop" Path="DoWhileLoop/DoWhileLoop.project"/>
+  <Project Name="WhileLoops" Path="WhileLoops/WhileLoops.project" Active="No"/>
+  <Project Name="DoWhileLoop" Path="DoWhileLoop/DoWhileLoop.project" Active="No"/>
+  <Project Name="ContinueAndBreak" Path="ContinueAndBreak/ContinueAndBreak.project" Active="No"/>
+  <Project Name="NestedLoops" Path="NestedLoops/NestedLoops.project" Active="No"/>
+  <Project Name="Histogram" Path="Histogram/Histogram.project" Active="No"/>
+  <Project Name="VectorPairingChallenge" Path="VectorPairingChallenge/VectorPairingChallenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +29,10 @@
       <Project Name="RangeBasedForLoop" ConfigName="Debug"/>
       <Project Name="WhileLoops" ConfigName="Debug"/>
       <Project Name="DoWhileLoop" ConfigName="Debug"/>
+      <Project Name="ContinueAndBreak" ConfigName="Debug"/>
+      <Project Name="NestedLoops" ConfigName="Debug"/>
+      <Project Name="Histogram" ConfigName="Debug"/>
+      <Project Name="VectorPairingChallenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +47,10 @@
       <Project Name="RangeBasedForLoop" ConfigName="Release"/>
       <Project Name="WhileLoops" ConfigName="Release"/>
       <Project Name="DoWhileLoop" ConfigName="Release"/>
+      <Project Name="ContinueAndBreak" ConfigName="Release"/>
+      <Project Name="NestedLoops" ConfigName="Release"/>
+      <Project Name="Histogram" ConfigName="Release"/>
+      <Project Name="VectorPairingChallenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
