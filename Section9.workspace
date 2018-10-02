@@ -14,7 +14,8 @@
   <Project Name="ContinueAndBreak" Path="ContinueAndBreak/ContinueAndBreak.project" Active="No"/>
   <Project Name="NestedLoops" Path="NestedLoops/NestedLoops.project" Active="No"/>
   <Project Name="Histogram" Path="Histogram/Histogram.project" Active="No"/>
-  <Project Name="VectorPairingChallenge" Path="VectorPairingChallenge/VectorPairingChallenge.project" Active="Yes"/>
+  <Project Name="VectorPairingChallenge" Path="VectorPairingChallenge/VectorPairingChallenge.project" Active="No"/>
+  <Project Name="ChallengeExercise" Path="ChallengeExercise/ChallengeExercise.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +34,7 @@
       <Project Name="NestedLoops" ConfigName="Debug"/>
       <Project Name="Histogram" ConfigName="Debug"/>
       <Project Name="VectorPairingChallenge" ConfigName="Debug"/>
+      <Project Name="ChallengeExercise" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +53,7 @@
       <Project Name="NestedLoops" ConfigName="Release"/>
       <Project Name="Histogram" ConfigName="Release"/>
       <Project Name="VectorPairingChallenge" ConfigName="Release"/>
+      <Project Name="ChallengeExercise" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
