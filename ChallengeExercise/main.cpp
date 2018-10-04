@@ -71,6 +71,7 @@ int main()
             }
             case 'M':
             {
+                //Print the mean of the collection
                 int sum {};
                 for (int i {0}; i < collection.size(); i++)
                 {
@@ -84,6 +85,7 @@ int main()
             }
             case 'm':
             {
+                //Print the mean of the collection
                 int sum {};
                 for (int i {0}; i < collection.size(); i++)
                 {
@@ -97,21 +99,106 @@ int main()
             }
             case 'S':
             {
+                //Display the smallest in the collection
+                int smallest {};
+                for (int i {0}; i <collection.size(); i++)
+                {
+                    //Whatever value is in i will be put into smallest
+                    //Check if this is the first iteration
+                    if (i == 0)
+                    {
+                        smallest = collection[i];
+                    }
+                    
+                    if (collection[i] < smallest)
+                    {
+                        //First iteration, this won't be called
+                        //Update collection[i] to the smallest number
+                        smallest = collection[i];
+                    }
+                    
+                }
+                cout <<"The smallest number in the collection is: " << smallest << endl;
                 break;
                 
             }
             case 's':
             {
+                //Display the smallest in the collection
+                int smallest {};
+                for (int i {0}; i <collection.size(); i++)
+                {
+                    //Whatever value is in i will be put into smallest
+                    //Check if this is the first iteration
+                    if (i == 0)
+                    {
+                        smallest = collection[i];
+                    }
+                    
+                    if (collection[i] < smallest)
+                    {
+                        //First iteration, this won't be called
+                        //Update collection[i] to the smallest number
+                        smallest = collection[i];
+                    }
+                    
+                }
+                cout <<"The smallest number in the collection is: " << smallest << endl;
                 break;
                 
             }
             case 'L':
             {
-                break;
+                //Display the largest number in the collection
+                int largest {};
+                for (int i {0}; i < collection.size(); i++)
+                {
+                    //Whatever value is in i will be put into smallest
+                    //Check if this is the first iteration
+                    if (i == 0)
+                    {
+                        //10 is currently largest
+                        largest = collection[i];
+                    }
+                    
+                    if (collection[i] > largest && i > 0)
+                    {
+                        //First iteration, this won't be called
+                        //Update collection[i] to the smallest number
+                        largest = collection[i];
+                    }
+                    
+                }
                 
-            }
+                cout <<"The largest number in the collection is: " << largest << endl;
+                break;
+            
+                
+                }
             case 'l':
             {
+                //Display the largest number in the collection
+                int largest {};
+                for (int i {0}; i < collection.size(); i++)
+                {
+                    //Whatever value is in i will be put into smallest
+                    //Check if this is the first iteration
+                    if (i == 0)
+                    {
+                        //10 is currently largest
+                        largest = collection[i];
+                    }
+                    
+                    if (collection[i] > largest && i > 0)
+                    {
+                        //First iteration, this won't be called
+                        //Update collection[i] to the smallest number
+                        largest = collection[i];
+                    }
+                    
+                }
+                
+                cout <<"The largest number in the collection is: " << largest << endl;
                 break;
                 
             }
